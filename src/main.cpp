@@ -34,7 +34,7 @@ int main() {
     glfwMakeContextCurrent(window);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
-    Shader shader("shader.vert", "shader.frag");
+    Shader shader("src/shader.vert", "src/shader.frag");
 
     float vertices[] = {
          0.5f,  0.5f, 0.0f, 1.0f, 1.0f,
